@@ -1,0 +1,168 @@
+@charset "UTF-8";
+body {
+	background-color: #eee;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+
+#Master {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFF;
+	padding-right: 5px;
+	padding-left: 5px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #CCC;
+	border-left-color: #CCC;
+	margin-top: -10px;
+	margin-bottom: -10px;
+}
+
+#Header {
+	background-color: #00517c;
+	height: 150px;
+	width: 960px;
+}
+#Logo {
+	width: 375px;
+	padding-top: 10px;
+	margin-left: 10px;
+}
+#Menu {
+	background-color: #000;
+	height: 35px;
+	width: 960px;
+	margin-bottom: 10px;
+	padding-top: 15px;
+	text-align: center;
+}
+#Menu ul li {
+	color: #84c254;
+	font-weight: bold;
+	font-size: 16px;
+	list-style-type: none;
+	display: inline;
+	margin-right: 20px;
+}
+#Menu ul {
+	margin: 0px;
+	padding: 0px;
+}
+#Content {
+	width: 940px;
+	margin-bottom: 40px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.FeatureBox {
+	background-color: #00517c;
+	width: 293px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+.FeatureBoxTitle {
+	margin-top: -30px;
+	position: absolute;
+}
+.FeatureBoxImage {
+	background-color: #FFF;
+	width: 282px;
+	margin-bottom: 10px;
+	border: 5px solid #FFF;
+	margin-top: 30px;
+}
+
+#Footer {
+	background-color: black;
+	height: 50px;
+	width: 960px;
+	clear: both;
+}
+h1 {
+	font-size: 18px;
+	color: #f60;
+	margin-bottom: -10px;
+}
+h2 {
+	color: #f60;
+	margin-bottom: -10px;
+	font-size: 15px;
+}
+p {
+	line-height: 20px;
+	font-size: 12px;
+}
+.Emphasis {
+	font-style: italic;
+	color: #6A943C;
+	font-weight: bold;
+}
+.Highlight {
+	font-weight: bold;
+	color: #00F;
+	background-color: #FF0;
+}
+.ImageController {
+	border: 5px solid #00517C;
+	float: right;
+	margin-left: 20px;
+}
+
+a:link {
+	color: #90C63C;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #90C63C;
+}
+a:hover {
+	text-decoration: none;
+	color: #F60;
+}
+a:active {
+	text-decoration: none;
+}
+#slideshow {
+	height: 423px;
+	width: 930px;
+	padding-left: 10px;
+	border: 1px solid #CCC;
+}
+table {
+	font-size: 12px;
+	color: #FFF;
+	background-color: #00517c;
+	border: 1px solid #000;
+}
+th {
+	color: #8AC53E;
+	background-color: #000;
+	padding: 5px;
+	text-align: left;
+}
+td {
+	padding: 10px;
+}
+#LocationMap {
+	margin-left: 170px;
+	border: 1px solid #00517C;
+	width: 600px;
+}
+.Testimonial {
+	font-style: italic;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.PullQuote {
+	font-size: 14px;
+	font-weight: bold;
+	color: #00517C;
+}
